@@ -11,5 +11,6 @@ set rtp+=~/ctrlp.vim
 let g:slime_default_config = {"socket_name": "default", "target_pane": "{last}"}
 
 set relativenumber
+set nu rnu
 nnoremap <C-t> :tabnew<CR>
 nnoremap <C-w> :tabclose<CR>
